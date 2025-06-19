@@ -7,7 +7,7 @@ this repository is going to show my first portfoiio created during internship
 
   <br/>
 
-  <h1><b>Hello Codegisoft Academy</b></h1>
+  <h1><b>Portfolio</b></h1>
 
 </div>
 
@@ -32,7 +32,7 @@ this repository is going to show my first portfoiio created during internship
 
 # 📖 PORTFOLIO <a name="about-project"></a>
 
-This is the first technical Codegisoft Academy project it tests more on Git, GitHub, GitHub Workflow and Linters.
+This is the first technical Codegisoft Academy project it tests more on first steps in html and css, understanding the meaning of responsiveness, building our first responsive portfolio and staging the phone responsive site.
 
 *[my PORTFOLIO]* is a HTML CSS project
 
@@ -46,9 +46,10 @@ This is the first technical Codegisoft Academy project it tests more on Git, Git
 
 ### Key Features <a name="key-features"></a>
 
-- *Understanding Git, GitHub and GitHub Workflow*
+- learning responsiveness 
+- having a net idea on how to style a responsive web page
 - *Configuring Linters*
-- *Creating pull requests and merging*
+- having responsive web page
 - *getting aquainted with html & css*
 
 A demo link will be uploaded subsequently. https://github.com/Insipidpoison237/TEDDY-PORTFOLIO.git
@@ -101,8 +102,8 @@ sh
 You can deploy this project using:
 
 sh
-  gh-pages
-  netlify
+  gh-pages <br>
+  netlify<br>
   vercel
 
 ## 👥 Authors <a name="authors"></a>
