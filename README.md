@@ -116,6 +116,7 @@ sh
 
 - integration with javascript
 - Adding more html contents
+- making it more ressponsive
 
 ## 🤝 Contributing <a name="contributing"></a>
 
