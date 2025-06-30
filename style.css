@@ -137,7 +137,6 @@
     display: flex;
     list-style: none;
     gap: 5px;
-   
   }
 
   .lone_card_text ul li {
@@ -377,83 +376,77 @@
 
   /* TABLET VERSION */
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .home h3 {
-    font-size: 26px;
-  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .home h3 {
+      font-size: 26px;
+    }
 
-  .home p {
-    font-size: 20px;
-  }
+    .home p {
+      font-size: 20px;
+    }
 
-  .projects {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .proj_title {
-    gap: 23px;
-  }
+    .proj_title {
+      gap: 23px;
+    }
+
     .proj_lone_card {
-   gap: 30px;
-    border: 1px;
-    width: 760px;
-  }
+      gap: 30px;
+      border: 1px;
+      width: 760px;
+    }
 
-  .lone_card_img{
-   height: 200px;
-   width: 300px;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border: 1px solid blue;
-  }
+    .lone_card_img {
+      height: 200px;
+      width: 300px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 1px solid blue;
+    }
 
-  .lone_card_text {
-    justify-content: center;
-    align-items: center;
-  }
+    .lone_card_text {
+      justify-content: center;
+      align-items: center;
+    }
 
-  .sim_card {
-    height: 420px;
-  }
+    .sim_card {
+      height: 420px;
+    }
 
-  .proj_title p {
-    font-size: 25px;
-  }
+    .proj_title p {
+      font-size: 25px;
+    }
 
-  .proj_similar_cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    padding: 20px 0;
-    justify-content: center;
-    align-items: center;
-  }
+    .proj_similar_cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding: 20px 0;
+      justify-content: center;
+      align-items: center;
+    }
 
-  .abt_text_desk h2 {
-    font-size: 62px;
-    font-weight: 402;
-    gap: 24px;
-  }
+    .abt_text_desk h2 {
+      font-size: 62px;
+      font-weight: 402;
+      gap: 24px;
+    }
 
-  .abt_text_desk p {
-    font-size: 25px;
-  }
+    .abt_text_desk p {
+      font-size: 25px;
+    }
 
-  .abt_cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    .abt_cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+    }
   }
 }
-
-
-
-}
-
-
-
-
