@@ -20,12 +20,45 @@
     padding: 12px;
   }
 
+  .mobile_social ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+  }
+
+  .lone_card_text ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+  }
+
+  .sim_card ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+
+  .abt_card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    text-align: center;
+  }
+
   .desktop_menu.active ul {
     display: flex;
     flex-direction: column;
     gap: 50px;
     list-style: none;
     justify-content: center;
+  }
+
+  .logo a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
   }
 
   .desktop_menu.active ul li a {
@@ -38,20 +71,14 @@
     transform: translateX(0);
   }
 
-  .mobile_menu.active p:nth-child(1) {
-    rotate: 45deg;
-    top: 6px;
-    position: relative;
+  .mobile_menu p {
+    padding: 1px 15px;
+    background-color: #fff;
   }
 
-  .mobile_menu.active p:nth-child(2) {
-    opacity: 0;
-  }
-
-  .mobile_menu.active p:nth-child(3) {
-    rotate: -45deg;
-    top: -14px;
-    position: relative;
+  .home p,
+  .home h3 {
+    color: #fff;
   }
 
   header {
@@ -74,17 +101,9 @@
     gap: 8px;
   }
 
-  .mobile_menu p {
-    padding: 1px 15px;
-    background-color: #fff;
-  }
 
-  .logo a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-  }
+
+
 
   /* mobile phone */
   .desk-social {
@@ -111,19 +130,8 @@
     font-weight: 400px;
   }
 
-  .home p,
-  .home h3 {
-    color: #fff;
-  }
-
   .home h3 {
     font-size: 24px;
-  }
-
-  .mobile_social ul {
-    display: flex;
-    gap: 8px;
-    list-style: none;
   }
 
   .mobile_bg {
@@ -181,12 +189,6 @@
     font-size: 16px;
   }
 
-  .lone_card_text ul {
-    display: flex;
-    list-style: none;
-    gap: 5px;
-  }
-
   .lone_card_text ul li {
     border: 1px solid;
     padding: 3px 5px;
@@ -236,12 +238,6 @@
   .sim_card p {
     font-size: 16px;
     color: #fff;
-  }
-
-  .sim_card ul {
-    display: flex;
-    gap: 10px;
-    list-style: none;
   }
 
   .sim_card ul li {
@@ -342,13 +338,7 @@
     font-weight: 700;
   }
 
-  .abt_card ul {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    list-style: none;
-    text-align: center;
-  }
+
 
   .abt_card ul li {
     font-size: 22px;
@@ -380,6 +370,22 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .mobile_menu.active p:nth-child(1) {
+    rotate: 45deg;
+    top: 6px;
+    position: relative;
+  }
+
+  .mobile_menu.active p:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile_menu.active p:nth-child(3) {
+    rotate: -45deg;
+    top: -14px;
+    position: relative;
   }
 
   .desk_form {
