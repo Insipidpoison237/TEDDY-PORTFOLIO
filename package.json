@@ -1,0 +1,31 @@
+{
+  "name": "teddy-portfolio",
+  "version": "1.0.0",
+  "description": "this repository is going to show my first portfoiio created during internship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insipidpoison237/TEDDY-PORTFOLIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insipidpoison237/TEDDY-PORTFOLIO/issues"
+  },
+  "homepage": "https://github.com/Insipidpoison237/TEDDY-PORTFOLIO#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.32.0",
+    "hint": "^7.1.13",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
